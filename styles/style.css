@@ -19,9 +19,11 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -101,10 +103,10 @@ ol {
 }
 
 .content__list {
-  display: flex;
-  flex-direction: column;
-  height: 298px;
-  overflow: auto;
+  position: relative;
+  overflow-y: scroll;
+  block-size: 298px;
+  scrollbar-width: none;
 }
 
 .content__list::-webkit-scrollbar {
@@ -114,6 +116,10 @@ ol {
 .content__list::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
+}
+
+.content__list-item {
+  padding: 2px;
 }
 
 .content__list-item + .content__list-item {
