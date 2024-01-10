@@ -94,15 +94,6 @@ ol {
   gap: 5px;
 }
 
-/* .search-form__fieldset-title {
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
-} */
-
 .content__list {
   display: flex;
   flex-direction: column;
