@@ -211,6 +211,11 @@ ol {
   color: #fff;
   cursor: pointer;
   background: transparent;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .search-form__submit-button {
