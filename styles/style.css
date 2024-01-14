@@ -294,10 +294,8 @@ ol {
   background: #545050;
 }
 
-input:focus {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+button:focus {
+  outline: none;
 }
 
 .button:focus-visible {
