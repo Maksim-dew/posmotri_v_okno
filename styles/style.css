@@ -121,7 +121,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  width: 100%;
+  min-width: 412px;
   height: 100%;
 }
 
@@ -215,14 +215,12 @@ ol {
 }
 
 .search-form__submit-button {
-  font-size: 18px;  
   width: 194px;
 }
 
 .more-button {
   padding: 6px 0;
   text-align: center;
-  background-color: transparent;
   inline-size: 100%;
 } 
 
